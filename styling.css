@@ -1,0 +1,28 @@
+
+body {
+	margin: 0;
+	background-image: url(images/mtSolstice.jpg);
+	background-size: cover;
+}
+
+/******** nav bar ********/
+.navbar {
+	background-color: orange;
+	margin-top: 0;
+}
+
+.home# {
+
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navbar li {
+	list-style: none;
+	display: inline;
+	font-size: 1.4em;
+	margin: 40px;
+}
