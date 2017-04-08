@@ -12,9 +12,9 @@ body {
 /******** nav bar ********/
 
 .navbar {
-	background-color: orange;
-	margin: 0;
 	border-radius: 0;
+	font-size: 1.2em;
+	text-shadow: 3px 0px 6px #999;
 }
 
 .home# {
