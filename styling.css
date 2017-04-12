@@ -13,8 +13,9 @@ body {
 
 .navbar {
 	border-radius: 0;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	text-shadow: 3px 0px 6px #999;
+	font-family: 'Shrikhand', cursive;
 }
 
 .home# {
