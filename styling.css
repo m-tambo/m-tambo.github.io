@@ -1,4 +1,4 @@
-/*main picture*/
+/*_______background_______*/
 body {
 	background:
 	radial-gradient(circle,
@@ -6,10 +6,9 @@ body {
 		rgba(999, 999, 999, 10)),
 	center/cover no-repeat fixed
 	url(/images/redRockCanyon.JPG);
-
 }
 
-/******** nav bar ********/
+/*_______navbar_______*/
 
 .navbar {
 	border-radius: 0;
@@ -18,14 +17,9 @@ body {
 	font-family: 'Shrikhand', cursive;
 }
 
-.home# {
-
-}
-
 .navbar a {
 	text-decoration: none;
 	color: #fff;
-
 }
 
 /*float nav links right*/
@@ -40,4 +34,11 @@ body {
 /*float the home link left*/
 .navbar li:nth-child(1) {
 	float: left;
+}
+
+
+/*_______misc styling_______*/
+
+.center {
+	margin: 25% 50%;
 }
