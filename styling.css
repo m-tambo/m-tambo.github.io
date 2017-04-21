@@ -87,11 +87,46 @@ body {
   /*justify-content: left;*/
 }
 
+/*_______technologies view styling_______*/
+.header {
+  margin: 5% 20%;
+  font-size: 4em;
+  color: white;
+  text-shadow: 2px 3px 1px #766;
+  font-family: 'Shrikhand', cursive;
+}
+
+.tech-card {
+  display: inline-flex;
+  margin: 10%;
+}
+
+.tech-pic {
+  max-height: 100px;
+  background-color: white;
+  border-radius: 80px;
+  padding: 6%;
+  border: 9px double #766;
+}
+
+.tech-pic:hover {
+  max-height: 120px;
+}
+
+
 /*_______misc styling_______*/
 .center {
 	margin: 25% 50%;
 }
 
 .typed-cursor {
+  display: none;
+}
+
+.active-tab {
+  color: red;
+}
+
+.hidden {
   display: none;
 }
