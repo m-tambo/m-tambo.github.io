@@ -107,10 +107,12 @@ body {
   border-radius: 80px;
   padding: 6%;
   border: 9px double #766;
+  filter: grayscale(60%)
 }
 
 .tech-pic:hover {
   max-height: 120px;
+  filter: grayscale(0)
 }
 
 
