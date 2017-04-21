@@ -99,6 +99,7 @@ body {
 .tech-card {
   display: inline-flex;
   margin: 10%;
+  flex-wrap: wrap;
 }
 
 .tech-pic {
@@ -107,12 +108,13 @@ body {
   border-radius: 80px;
   padding: 6%;
   border: 9px double #766;
-  filter: grayscale(60%)
+  filter: grayscale(50%);
+  flex-wrap: inherit;
 }
 
 .tech-pic:hover {
   max-height: 120px;
-  filter: grayscale(0)
+  filter: grayscale(0%);
 }
 
 
