@@ -7,7 +7,7 @@ app.controller('homeCtrl', function($scope) {
             strings: ["michael tambornino"],
             typeSpeed: 5
         })
-    }, 150)
+    }, 1500)
 
     setTimeout(function() {
         $(".dev").css("display", "inherit")
@@ -15,7 +15,7 @@ app.controller('homeCtrl', function($scope) {
             strings: ["software developer"],
             typeSpeed: 2
         })
-    }, 2000)
+    }, 3500)
 
     window.addEventListener('click', (evt) => { // show flower pic on triple click
       if (evt.detail % 3 === 0) {
