@@ -30,14 +30,64 @@ body {
 	float: right;
 }
 
-/*float the home link left*/
-.navbar li:nth-child(1) {
+.navbar li:nth-child(1) { /*float the home link left*/
 	float: left;
 }
 
+/*_______home view styling_______*/
+.name-and-pic {
+	display: inline-flex;
+	align-items: center;
+}
+
+.profile-pic {
+  border: 0;
+  max-width: 240px;
+  border-radius: 200px;
+  border: 13px double white;
+  margin: 17% 15%;
+}
+
+.my-name {
+	display: inline-table;
+	margin: 0 0 15% -8%;
+	font-size: 4em;
+	color: white;
+	text-shadow: 2px 3px 1px #766;
+	font-family: 'Shrikhand', cursive;
+}
+
+@media (max-width: 800px) { /* rearrange for smaller than 800px */
+	.name-and-pic {
+		display: block;
+	}
+	.my-name {
+		display: inline-block;
+		margin-left: 5%;
+		margin-top: -10%;
+		text-shadow: 2px 3px 1px black;
+	}
+}
+
+/*_______about view styling_______*/
+.about-block {
+  background-color: white;
+  margin: 15% 5%;
+  padding: 3%;
+  border-radius: 35px 5px;
+  font-size: 1.5em;
+  line-height: 1.6em;
+}
+.about-block p:nth-child(1) {
+  margin-left: 20%;
+}
+
+.about-block p:nth-child(2) {
+  margin-right: 15%;
+  /*justify-content: left;*/
+}
 
 /*_______misc styling_______*/
-
 .center {
 	margin: 25% 50%;
 }
