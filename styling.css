@@ -6,10 +6,10 @@ body {
 		rgba(999, 999, 999, 10)),
 	center/cover no-repeat fixed
 	url(/images/redRockCanyon.JPG);
+	font-family: 'Alice', serif;
 }
 
-/*_______navbar_______*/
-
+/*_______navbar styling_______*/
 .navbar {
 	border-radius: 0;
 	font-size: 1.4em;
@@ -22,8 +22,7 @@ body {
 	color: #fff;
 }
 
-/*float nav links right*/
-.navbar li {
+.navbar li { /*float nav links right*/
 	list-style: none;
 	display: inline;
 	font-size: 1.2em;
