@@ -1,0 +1,29 @@
+{
+  "tech":
+  [
+    {
+      "name": "AngularJS",
+      "img": "/images/tech/Angular.png"
+    },
+    {
+      "name": "HTML 5",
+      "img": "/images/tech/HTML5.png"
+    },
+    {
+      "name": "CSS 3",
+      "img": "/images/tech/CSS.png"
+    },
+    {
+      "name": "",
+      "img": ""
+    },
+    {
+      "name": "",
+      "img": ""
+    },
+    {
+      "name": "",
+      "img": ""
+    }
+  ]
+}
