@@ -91,3 +91,7 @@ body {
 .center {
 	margin: 25% 50%;
 }
+
+.typed-cursor {
+  display: none;
+}
