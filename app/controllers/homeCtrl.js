@@ -1,8 +1,8 @@
 app.controller('homeCtrl', function($scope) {
   $(document).ready(function () {
-    $(window).load( () => {
-      $('.profile-pic').fadeIn('slow')
-    })
+    // $(window).load( () => {
+    //   $('.profile-pic').fadeIn('slow')
+    // })
     // change pic on triple click
     window.addEventListener('click', (evt) => {
       if (evt.detail % 3 === 0) {
