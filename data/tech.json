@@ -3,27 +3,128 @@
   [
     {
       "name": "AngularJS",
-      "img": "/images/tech/Angular.png"
+      "img": "/images/tech/Angular.png",
+      "url": "https://angularjs.org/"
     },
     {
-      "name": "HTML 5",
-      "img": "/images/tech/HTML5.png"
+      "name": "Bootstrap",
+      "img": "/images/tech/Bootstrap.png",
+      "url": "http://getbootstrap.com/"
+    },
+    {
+      "name": "Bower",
+      "img": "/images/tech/Bower.png",
+      "url": "https://bower.io/"
+    },
+    {
+      "name": "BookshelfJS",
+      "img": "/images/tech/BookshelfJS.png",
+      "url": "http://bookshelfjs.org/"
+    },
+    {
+      "name": "Chai",
+      "img": "/images/tech/Chai.png",
+      "url": "http://chaijs.com/"
     },
     {
       "name": "CSS 3",
-      "img": "/images/tech/CSS.png"
+      "img": "/images/tech/CSS.png",
+      "url": "http://html.com/css/"
     },
     {
-      "name": "",
-      "img": ""
+      "name": "Draw IO",
+      "img": "/images/tech/DrawIo.png",
+      "url": "https://www.draw.io/"
     },
     {
-      "name": "",
-      "img": ""
+      "name": "ExpressJS",
+      "img": "/images/tech/Express.png",
+      "url": "https://expressjs.com/"
     },
     {
-      "name": "",
-      "img": ""
+      "name": "Firebase",
+      "img": "/images/tech/Firebase.png",
+      "url": "https://firebase.google.com"
+    },
+    {
+      "name": "Git",
+      "img": "/images/tech/Git.png",
+      "url": "https://git-scm.com/"
+    },
+    {
+      "name": "GitHub",
+      "img": "/images/tech/Github.png",
+      "url": "https://github.com/"
+    },
+    {
+      "name": "Heroku",
+      "img": "/images/tech/Heroku.png",
+      "url": "https://heroku.com"
+    },
+    {
+      "name": "HTML 5",
+      "img": "/images/tech/HTML5.png",
+      "url": "http://html.com/"
+    },
+    {
+      "name": "JavaScript",
+      "img": "/images/tech/Javascript.png",
+      "url": "https://www.javascript.com/"
+    },
+    {
+      "name": "KnexJS",
+      "img": "/images/tech/KnexJS.png",
+      "url": "http://knexjs.org/"
+    },
+    {
+      "name": "Materialize",
+      "img": "/images/tech/Materialize.png",
+      "url": "http://materializecss.com/"
+    },
+    {
+      "name": "Mocha",
+      "img": "/images/tech/Mocha.png",
+      "url": "https://mochajs.org/"
+    },
+    {
+      "name": "Moqups",
+      "img": "/images/tech/Moqups.png",
+      "url": "https://moqups.com/"
+    },
+    {
+      "name": "NodeJS",
+      "img": "/images/tech/Node.png",
+      "url": "https://nodejs.org/en/"
+    },
+    {
+      "name": "NPM",
+      "img": "/images/tech/NPM.png",
+      "url": "https://www.npmjs.com/"
+    },
+    {
+      "name": "Postgres",
+      "img": "/images/tech/Postgres.png",
+      "url": "https://www.postgresql.org/"
+    },
+    {
+      "name": "Pug",
+      "img": "/images/tech/Pug.png",
+      "url": "https://pugjs.org"
+    },
+    {
+      "name": "SQLite",
+      "img": "/images/tech/SQLite.png",
+      "url": "https://www.sqlite.org/"
+    },
+    {
+      "name": "Sublime",
+      "img": "/images/tech/Sublime.png",
+      "url": "https://www.sublimetext.com/"
+    },
+    {
+      "name": "Trello",
+      "img": "/images/tech/Trello.png",
+      "url": "https://trello.com/"
     }
   ]
 }
