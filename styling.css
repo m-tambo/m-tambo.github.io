@@ -110,6 +110,7 @@ body {
   border: 9px double #766;
   filter: grayscale(50%);
   flex-wrap: inherit;
+  margin-bottom: 20%;
 }
 
 .tech-pic:hover {
