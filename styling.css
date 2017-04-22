@@ -79,11 +79,11 @@ body {
   line-height: 1.6em;
 }
 .about-block p:nth-child(1) {
-  margin-left: 20%;
+  margin-left: 25%;
 }
 
 .about-block p:nth-child(2) {
-  margin-right: 15%;
+  margin-right: 25%;
   /*justify-content: left;*/
 }
 
