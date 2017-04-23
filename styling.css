@@ -108,13 +108,13 @@ body {
   border-radius: 80px;
   padding: 6%;
   border: 9px double #766;
-  filter: grayscale(50%);
+  filter: grayscale(100%);
   flex-wrap: inherit;
   margin-bottom: 20%;
 }
 
 .tech-pic:hover {
-  max-height: 120px;
+  /*max-height: 120px;*/
   filter: grayscale(0%);
 }
 
@@ -126,11 +126,11 @@ body {
 
 /*_______contact view styling_______*/
 .contact {
-  font-size: 2.5em;
+  font-size: 1.5em;
   margin: 10% 0;
   background-color: white;
   border-left: 11px double #766;
-  padding: 4%;
+  padding: 3% 5%;
   margin-left: 15%;
   line-height: 1.8em;
 }
@@ -154,8 +154,8 @@ body {
   display: none;
 }
 
-.active-tab {
-  color: red;
+#active-tab {
+  color: #94634b;
 }
 
 .hidden {
