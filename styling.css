@@ -116,6 +116,7 @@ body {
 .tech-pic:hover {
   /*max-height: 120px;*/
   filter: grayscale(0%);
+  border: 9px double #222;
 }
 
 /*_______projects view styling_______*/
