@@ -40,7 +40,5 @@ app.controller('homeCtrl', function($scope, actionsFactory) {
       }
     })
 
-    // $('.home-link').click().attr('class', 'hidden')
-
   })
 })
