@@ -1,5 +1,8 @@
-app.controller('homeCtrl', function($scope) {
+app.controller('homeCtrl', function($scope, actionsFactory) {
   $(document).ready(function () {
+
+    actionsFactory.clearTabs()
+    $('.home-link').attr('id', 'active-tab')
 
     setTimeout(function() { // animated print-out of name
         $(".tambo").css("display", "inherit")

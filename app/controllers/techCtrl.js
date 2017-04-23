@@ -1,11 +1,18 @@
-app.controller('techCtrl', function($scope, $http) {
+app.controller('techCtrl', function($scope, $http, actionsFactory) {
 
-  const getTech = function () { // put this in a factory? naaaaahhh
-    return $http
-      .get('/data/tech.json')
-      .then( (res) => $scope.technos = res.data.tech )
-  }
+  $(document).ready(function () {
 
-  getTech()
+    actionsFactory.clearTabs()
+     $('.tech-link').attr('id', 'active-tab')
+
+    const getTech = function () { // put this in a factory? naaaaahhh
+      return $http
+        .get('/data/tech.json')
+        .then( (res) => $scope.technos = res.data.tech )
+    }
+
+    getTech()
+
+  })
 
 })
