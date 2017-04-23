@@ -127,7 +127,7 @@ body {
 
 /*_______contact view styling_______*/
 .contact {
-  font-size: 1.5em;
+  font-size: 1.6em;
   margin: 10% 0;
   background-color: white;
   border-left: 11px double #766;
@@ -138,11 +138,10 @@ body {
 
 .contact a {
   color: #766;
-  /*text-shadow: 2px 3px 1px #766;*/
 }
 
 .contact img {
-  max-width: 50px;
+  max-width: 35px;
 }
 
 
