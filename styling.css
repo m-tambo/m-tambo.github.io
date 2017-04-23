@@ -74,17 +74,17 @@ body {
   background-color: white;
   margin: 15% 5%;
   padding: 3%;
-  border-radius: 35px 5px;
+  border-radius: 155px 5px;
   font-size: 1.5em;
   line-height: 1.6em;
 }
+
 .about-block p:nth-child(1) {
   margin-left: 25%;
 }
 
 .about-block p:nth-child(2) {
   margin-right: 25%;
-  /*justify-content: left;*/
 }
 
 /*_______technologies view styling_______*/
@@ -116,6 +116,32 @@ body {
 .tech-pic:hover {
   max-height: 120px;
   filter: grayscale(0%);
+}
+
+/*_______projects view styling_______*/
+
+
+
+
+
+/*_______contact view styling_______*/
+.contact {
+  font-size: 2.5em;
+  margin: 10% 0;
+  background-color: white;
+  border-left: 11px double #766;
+  padding: 4%;
+  margin-left: 15%;
+  line-height: 1.8em;
+}
+
+.contact a {
+  color: #766;
+  /*text-shadow: 2px 3px 1px #766;*/
+}
+
+.contact img {
+  max-width: 50px;
 }
 
 
