@@ -1,6 +1,6 @@
 const app = angular.module('portfolio', ['ngRoute'])
 
-app.config(($routeProvider) => {
+app.config(($routeProvider, $locationProvider) => {
 
   $routeProvider
   .when('/', {
@@ -27,4 +27,5 @@ app.config(($routeProvider) => {
     redirectTo: "/home"
   })
 
+  $locationProvider.html5Mode(true)
 })
