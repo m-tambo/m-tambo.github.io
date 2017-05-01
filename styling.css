@@ -98,12 +98,13 @@ body {
 
 .tech-card {
   display: inline-flex;
-  margin: 10%;
+  margin: 15% 2%;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tech-pic {
-  max-height: 100px;
+  max-height: 70px;
   background-color: white;
   border-radius: 80px;
   padding: 6%;
