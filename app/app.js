@@ -24,8 +24,9 @@ app.config(($routeProvider, $locationProvider) => {
     templateUrl: 'app/partials/contact.html'
   })
   .otherwise({
-    redirectTo: "/home"
+    redirectTo: "/"
   })
 
-  $locationProvider.html5Mode(true)
+  // $locationProvider.html5Mode(true)
+  $locationProvider.hashPrefix('')
 })
