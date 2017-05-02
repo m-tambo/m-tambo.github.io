@@ -1,6 +1,6 @@
 const app = angular.module('portfolio', ['ngRoute'])
 
-app.config(($routeProvider, $locationProvider) => {
+app.config(($routeProvider) => {
 
   $routeProvider
   .when('/', {
@@ -28,5 +28,5 @@ app.config(($routeProvider, $locationProvider) => {
   })
 
   // $locationProvider.html5Mode(true)
-  $locationProvider.hashPrefix('')
+  // $locationProvider.hashPrefix('')
 })
