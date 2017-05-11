@@ -8,17 +8,17 @@ app.controller('homeCtrl', function($scope, actionsFactory) {
         $(".tambo").css("display", "inherit")
         $(".tambo").typed({
             strings: ["michael tambornino"],
-            typeSpeed: 5
+            typeSpeed: 1
         })
-    }, 1500)
+    }, 600)
 
     setTimeout(function() {
         $(".dev").css("display", "inherit")
         $(".dev").typed({
             strings: ["software developer"],
-            typeSpeed: 2
+            typeSpeed: 1
         })
-    }, 3500)
+    }, 1800)
 
     document.querySelector('.profile-pic').addEventListener('click', (evt) => { // show flower pic on triple click
       if (evt.detail === 3) {
